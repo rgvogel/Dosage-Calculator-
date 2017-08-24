@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/met_CYP2D6"
+        android:entries="@array/Metabolism"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp" />
+
+    <TextView
+        android:text="CYP2D6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView3" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/met_CYP3A4"
+        android:entries="@array/Metabolism"
+        android:layout_below="@+id/met_CYP2D6"
+        android:layout_alignLeft="@+id/met_CYP2D6"
+        android:layout_alignStart="@+id/met_CYP2D6"
+        android:layout_marginTop="106dp" />
+
+    <TextView
+        android:text="CYPA34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CYP2D6"
+        android:layout_alignBottom="@+id/met_CYP3A4"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:text="Calculate Dose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/met_CYP3A4"
+        android:layout_alignLeft="@+id/met_CYP3A4"
+        android:layout_alignStart="@+id/met_CYP3A4"
+        android:layout_marginTop="78dp"
+        android:id="@+id/calc_dose" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="Drug">drug</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="drug_name">
+        <item>Oxycodone</item>
+        <item>Wellbutrin</item>
+    </string-array>
+
+
+    <string-array name="Metabolism">
+        <item> Inactive Enzyme</item>
+        <item> Poor Metabolizer</item>
+        <item> Extensive Metabolizer</item>
+        <item> Ultra-Rapid Metabolizer</item>
+    </string-array>
+
+</resources>
